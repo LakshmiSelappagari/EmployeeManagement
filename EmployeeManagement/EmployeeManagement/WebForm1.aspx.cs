@@ -13,5 +13,17 @@ namespace EmployeeManagement
         {
 
         }
+        protected void AddNewEmployeePopup(object sender, System.EventArgs e)
+        {
+            //to open popup
+            myModal.Attributes.Add("Style", "display:block");
+            
+        }
+        protected void ClosePopup(object sender, System.EventArgs e)
+        {
+            //to close popup
+            myModal.Attributes.Add("Style", "display:none");
+
+        }
     }
 }
